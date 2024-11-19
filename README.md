@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proposal for Juli</title>
+    <title>this is my first code</title>
     <style>
         body {
             display: flex;
@@ -18,7 +18,7 @@
             font-size: 24px;
             margin-bottom: 20px;
         }
-        #proposal {
+        #rejection {
             font-size: 32px;
             font-weight: bold;
             color: #ff4500;
@@ -28,13 +28,13 @@
 <body>
     <div>
         <div id="message">Click the button below for a special message:</div>
-        <button onclick="revealProposal()">Reveal Proposal</button>
-        <div id="proposal"></div>
+        <button onclick="revealProposal()">Reveal rejection</button>
+        <div id="rejection"></div>
     </div>
     <script>
-        function revealProposal() {
-            const proposalDiv = document.getElementById('proposal');
-            proposalDiv.innerHTML = 'Juli, will you marry me?';
+        function revealrejection() {
+            const rejectionDiv = document.getElementById('rejection');
+            rejectionDiv.innerHTML = 'what is your name ?';
         }
     </script>
 </body>
